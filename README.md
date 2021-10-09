@@ -47,5 +47,14 @@ PSI results for Lot 3 compared to mean of 1,500:
 
 INSERT lot3 ttest image
 
+### Study Design: MechaCar vs Competition (Deliverable 4)
+- Description of a statistical study that can QUANTIFY how the MechaCar performs against the competition. In your study design think critically about what metrics would be of interest o a consumer:
+    - e.g. cost, city or hwy fuel efficiency, hp, maint. cost, safety rating
+
+- MAIN PART:  Address the following
+    - what metric(s) are you going to test?
+    - what is the null hypothesis or alternative hypothesis?
+    - what statistical test would you use to test the hypothesis? and why?
+    - what data is needed to run the statistical test?
 
 ## Summary
