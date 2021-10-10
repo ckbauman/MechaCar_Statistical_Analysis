@@ -7,7 +7,7 @@ The AutosRUs' MechaCar prototype is having some production troubles which are bl
 ## Results
 ### Linear Regression to Predict MPG (Deliverable 1)
 
-INSERT: linear image
+![linear](https://github.com/ckbauman/MechaCar_Statistical_Analysis/blob/main/linear.png)
 
 - Which variable/coefficents provided a non-random amount of variance to the mpg values in the dataset?
     - The p-values for vehicle_weight, spoiler_angle and AWD were all larger then the significance level of 0.05, therefore they are considered non-random.  The p-values for vehicle_length and ground_clearance were very small so considered random.
@@ -20,11 +20,12 @@ INSERT: linear image
 
 Total_Summary Results:
 
-INSERT: total sum image
+![total_sum](https://github.com/ckbauman/MechaCar_Statistical_Analysis/blob/main/total_sum.png)
+
 
 Lot_Summary Results:
 
-INSERT lot sum image
+![lot_sum](https://github.com/ckbauman/MechaCar_Statistical_Analysis/blob/main/lot_sum.png)
 
 - The design specs for mechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 PSI.  Does the current mfg data meet this design spec for all mfg lots in total and each lot individualy? why or why not?
     - overall variance of 62.29 - therefore does not exceed 100 PSI
@@ -36,19 +37,19 @@ INSERT lot sum image
 
 PSI results for ALL mfg lots compared to population mean of 1,500 PSI:
 
-INSERT all ttest image
+![all_ttest](https://github.com/ckbauman/MechaCar_Statistical_Analysis/blob/main/all_ttest.png)
 
 PSI results for Lot 1 compared to mean of 1,500:
 
-INSERT lot1 ttest image
+![lot1_ttest](https://github.com/ckbauman/MechaCar_Statistical_Analysis/blob/main/lot1_ttest.png)
 
 PSI results for Lot 2 compared to mean of 1,500:
 
-INSERT lot2 ttest image
+![lot2_ttest](https://github.com/ckbauman/MechaCar_Statistical_Analysis/blob/main/lot2_ttest.png)
 
 PSI results for Lot 3 compared to mean of 1,500:
 
-INSERT lot3 ttest image
+![lot3_ttest](https://github.com/ckbauman/MechaCar_Statistical_Analysis/blob/main/lot3_ttest.png)
 
 - Using your knowledge or R, perform t-test to determine if all mfg lots and each lot individually are statistically different from the population mean of 1,500 PSI.
     - The p-value overall is 0.06.  This is slightly larger then the significance level of 0.05. Therefore do not have sufficient evidence to reject null hypothesis.  So the 2 means are statistically similar
