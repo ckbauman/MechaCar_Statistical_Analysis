@@ -72,3 +72,4 @@ PSI results for Lot 3 compared to mean of 1,500:
         - We will need cost, mpg, maintenance costs
 
 ## Summary
+This was an overview for Module 15 in R and R Studio and Statistial Analysis
