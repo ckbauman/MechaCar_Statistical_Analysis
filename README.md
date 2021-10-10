@@ -22,7 +22,6 @@ Total_Summary Results:
 
 ![total_sum](https://github.com/ckbauman/MechaCar_Statistical_Analysis/blob/main/total_sum.png)
 
-
 Lot_Summary Results:
 
 ![lot_sum](https://github.com/ckbauman/MechaCar_Statistical_Analysis/blob/main/lot_sum.png)
